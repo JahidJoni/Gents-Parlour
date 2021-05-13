@@ -1,0 +1,17 @@
+.header-container {
+    height:800px;
+    position:relative;
+    background-image: url('../../../images/barber-mere-green-haircut-for-men-trim-11563203800bo3lxmhzsl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header-container::after {
+    height:700px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    right: 0;
+    background-color: #0a3a50;
+    z-index: -50;
+}
